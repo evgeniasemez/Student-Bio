@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css" /> -->
     <title>Student Bio</title>
 
     <style>
@@ -14,6 +16,15 @@
             color: white;
             text-align: center;
             text-decoration: underline;
+            background-color: black;
+            padding: 15px;
+            }
+
+        .red-link {
+            color: orange;
+        }
+
+        header{
             background-color: black;
             }
 
@@ -57,7 +68,9 @@
     </style>
 </head>
 <body>
+    <header>
     <h1>Evgenia Semez</h1>
+    </header> 
     <h2>Smaller Awesome Header</h2> 
     <h3>Even Smaller Header</h3>
     <img height="300px" width="250px" src ="myimg/My_Photo.JPG" />
@@ -69,9 +82,10 @@
 
     <h2>Contact Info:</h2>
     <ul>
-        <li><strong>Email: <a href="mailto:evgenia.semez@gmail.com">evgenia.semez@gmail.com</a></strong></li>
-        <li><strong>GitHub: <a href="https://github.com/evgeniasemez" target="_blank">evgeniasemez</a></strong></li>
-        <li><strong>Portfolio: <a href="">coming</a></strong></li>
+        <li><strong>Email: <a class="red-link" href="mailto:evgenia.semez@gmail.com">evgenia.semez@gmail.com</a></strong></li>
+        <li><strong>GitHub: <a class="red-link" href="https://github.com/evgeniasemez" target="_blank">evgeniasemez</a></strong></li>
+        <li><strong>Portfolio: <a class="red-link" href="">coming</a></strong></li>
     </ul>
+    <a href="google.com">keep me blue</a>
 </body>
 </html>
