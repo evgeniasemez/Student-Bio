@@ -1,0 +1,91 @@
+
+body {
+    background-color: #efeee7;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+h1{ 
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+    padding: 15px;
+}
+.container{
+    font-size: 24px;
+    margin: 0 auto;
+    width: 1024px;
+}
+
+.red-link {
+    color: #d21034;
+}
+
+
+/* Make #main-bio, #contact-info, #bio-image all float: left.
+Make the #bio-image have a width of 200 pixels.
+Be sure to include alt text in all images
+
+#main-bio should have a width of 70%.
+Add margins to the image so there is distance between it and the bio text.
+
+#contact-info should have a width of 30%.
+Adjust the line height so it is 1.5 times the size of the font.
+Make the link color #d21034. */
+#main-bio{
+    float: left;
+    width: 70%;
+    line-height: 1.5em;
+}
+
+#bio-image{
+    float: left;
+    margin-right: 20px;
+}
+
+#contact-info{
+    float: left;
+    width: 30%;
+    font-size: 15px;
+    line-height: 1.5em;
+    
+}
+
+header{
+    background-color: #333333;
+    }
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    }
+
+h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    }
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+p {
+    /* text-align: center; */
+    font-size: 20px;
+    /* font-weight: bold; */
+    }
+
+
+        
+
+
+
+    

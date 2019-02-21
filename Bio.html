@@ -5,87 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- <link rel="stylesheet" type="text/css" href="css/style.css" /> -->
+    <link rel="stylesheet" type="text/css" href="Bio.css" />
     <title>Student Bio</title>
 
-    <style>
-         /* cmnd+slash */
-         h1{ 
-             margin-bottom: 15px;
-             font-size: 60px;
-            color: white;
-            text-align: center;
-            text-decoration: underline;
-            background-color: black;
-            padding: 15px;
-            }
-
-        .red-link {
-            color: orange;
-        }
-
-        header{
-            background-color: black;
-            }
-
-        h2 {
-            margin-top: 15px;
-            margin-bottom: 15px;
-            font-size: 40px;
-            text-align: center;
-            }
-
-        h3 {
-             margin-top: 15px;
-            font-size: 20px;
-            text-align: center;
-            }
-
-        img {
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
-            }
-
-        p {
-            text-align: center;
-            font-size: 20px;
-            font-weight: bold;
-            }
-
-        ul {
-            text-align: center;
-            font-size: 35px;
-            border-style: solid;
-            border-width: 5px;
-            list-style-position: inside;
-            }
-
-        
-
-
-
-    </style>
+    
 </head>
 <body>
     <header>
-    <h1>Evgenia Semez</h1>
+        <h1>Student Bio</h1>
     </header> 
-    <h2>Smaller Awesome Header</h2> 
-    <h3>Even Smaller Header</h3>
-    <img height="300px" width="250px" src ="myimg/My_Photo.JPG" />
-    <h2>Biography:</h2>
-    <p>My name is Evgenia Semez.</p>
-    <p>Who i am?! Well...If you don't feel good ask me why :)</p> 
-    <p>I have a medical background and of course CPR certified! If you want to learn self defense moves ask me how :) i have a black belt in Taekwondo!</p> 
-    <p>If you want to do mount hiking i can suggest great spots! But if you like swimming or kayaking or boating please don't talk to me about it i am afraid of being in the water! :)</p>
+    <div class="container"> 
+        <div id="main-bio">
+            <h2>Evgenia Semez</h2>
+            <img id="bio-image" height="200px" width="200px" alt="Bio image" src ="myimg/My_Photo.JPG" />
 
-    <h2>Contact Info:</h2>
-    <ul>
-        <li><strong>Email: <a class="red-link" href="mailto:evgenia.semez@gmail.com">evgenia.semez@gmail.com</a></strong></li>
-        <li><strong>GitHub: <a class="red-link" href="https://github.com/evgeniasemez" target="_blank">evgeniasemez</a></strong></li>
-        <li><strong>Portfolio: <a class="red-link" href="">coming</a></strong></li>
-    </ul>
-    <a href="google.com">keep me blue</a>
+            <p>
+                My name is Evgenia Semez. Who i am?! Well...If you don't feel good ask me why :) 
+                I have a medical background and of course CPR certified! If you want to learn self defense moves ask me how :) 
+                i have a black belt in Taekwondo! If you want to do mount hiking i can suggest great spots! But if you like swimming 
+                or kayaking or boating please don't talk to me about it i am afraid of being in the water! :)
+            </p>
+        </div>
+        <div id="contact-info">
+            <h2>Contact Info</h2>
+            <ul>
+                <li><span style="font-weight: bold;">Email:</span> <a class="red-link" href="mailto:evgenia.semez@gmail.com">evgenia.semez@gmail.com</a></li>
+                <li><span style="font-weight: bold;">GitHub:</span> <a class="red-link" href="https://github.com/evgeniasemez" target="_blank">evgeniasemez</a></li>
+                <li><span style="font-weight: bold;">Portfolio:</span> <a class="red-link" href="">coming soon</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
